@@ -21,6 +21,9 @@ export default function Header() {
                             <li>
                                 <a href="https://www.linkedin.com/in/alexander-lundquist-b16b48164/">LinkedIn</a>
                             </li>
+                            <li>
+                                <a href="https://drive.google.com/file/d/1NZJnOlxoGRbowbu5jiaKXvw06q6CfqcA/view?usp=sharing">CV</a>
+                            </li>
                             
                         </ul>
                     </nav>

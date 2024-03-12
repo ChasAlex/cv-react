@@ -1,0 +1,50 @@
+{
+    "workHistory": [
+        {
+            "company": "Drivhuset",
+            "position": "Business Developer",
+            "startDate": "2023-01-01",
+            "endDate": "2024-01-01",
+            "description": "Led the Stockholm office for Drivhuset, a startup incubator dedicated to guiding students in launching their entrepreneurial ventures. Responsibilities encompassed providing personalized coaching sessions to aspiring entrepreneurs in their early development stages. Additionally, conducted entrepreneurial workshops and served as a public speaker advocating for youth entrepreneurship."
+        },
+        {
+            "company": "De jounge & Lundquist AB",
+            "position": "Co-founder",
+            "startDate": "2020-01-01",
+            "endDate": "Present",
+            "description": "Co-founded a successful wholesale business for food delicacies, specializing in the import and distribution of Kalix Löjrom caviar. Managed all aspects of the business, including sales, marketing, and logistics. Achieved a recurring revenue of over 300k SEK."
+                
+            
+        },
+        {
+            "company": "Sollentuna Slalomklubb",
+            "position": "Ski coach",
+            "startDate": "2019-09-01",
+            "endDate": "2021-10-01",
+            "description": "Ski coach for children aged 12-16 years old looking to pursue a professional ski career. Responsible for 25 youths while traveling abroad and to follow their developments through the year."
+                 
+        }
+    ],
+    "achievements": [
+        {
+            "title": "Member of the SEB Innovation Forum",
+            "date": "2023-05-15",
+            "description": "The Innovation forum strives to foster creativity and collaboration among entrepreneurs to drive innovation and improve business processes."
+        },
+        {
+            "title": "Jurypanelist at Karolinska institutet",
+            "date": "2023-08-15",
+            "description": "Contributed as a member of the jury panel at Karolinska Institutet for the Novo Nordisk Foundation, evaluating and selecting innovative healthcare solutions."
+        },
+        {
+            "title": "Keynote Speaker at the Life Science Summit",
+            "date": "2023-09-22",
+            "description": "Delivered a captivating keynote speech on entrepreneurship at The Life Science Summit, inspiring and engaging an audience of 150 attendees"
+        },
+        {
+            "title": "Entreprenurship",
+            "date": "2021-07-15",
+            "description": "Successfully launched and managed a profitable wholesale business for food delicacies, achieving a recurring revenue of over 300k SEK"
+        }
+    ]
+}

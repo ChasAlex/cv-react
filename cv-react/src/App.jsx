@@ -3,8 +3,13 @@ import { Canvas } from '@react-three/fiber'
 import './App.scss'
 import Intro from './Components/Intro'
 import React, { Suspense, useEffect, useRef } from 'react'
-
+import About from './Components/About'
 import state from './Components/state'
+import WorkHistory from './Components/WorkHistory'
+import Feat from './Components/Feat'
+import Projects from './Components/Projects'
+
+
 
 const Lights = () => {
 
@@ -40,14 +45,26 @@ function App() {
         <Suspense fallback={null}>
           <Intro domContent={domContent} modelPath="/free_merc_hovercar/scene.gltf" position={[110, -10, 0]} contentPosition={[-50, -10, 0]} scale={50} BgColor={'#006d77'}>
 
-            <h1 className="title">Alex</h1>
+            <About />
+
           </Intro>
 
           <Intro domContent={domContent} modelPath="/office_desk/scene.gltf" position={[110, -55, 0]} contentPosition={[-55, -245, 0]} scale={0.7} BgColor={'#83c5be'}>
 
-            <h3 className="title">Cv</h3>
-
+            <WorkHistory />
+            
           </Intro>
+
+          <Intro domContent={domContent} modelPath="/little_duck/scene.gltf" position={[130, -40, 0]} contentPosition={[0, -450, 0]} scale={5} BgColor={'#427aa1'}>
+            <Feat />
+          </Intro>
+
+          <Intro domContent={domContent} modelPath="/desktop_computer/scene.gltf" position={[140, -5, 0]} contentPosition={[-50, -660, 0]} scale={30} BgColor={'#006d77'}>
+            <Projects />
+            
+          </Intro>
+
+          
 
         </Suspense>
       </Canvas>
