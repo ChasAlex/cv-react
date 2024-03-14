@@ -61,7 +61,7 @@ export default function Projects() {
 
 
     return (
-        <div className="space-y-3">
+        <div className="space-y-3 pt-48">
             <Typography variant="h2">Projects</Typography>
             {projects.map((project, index) => {
                 return (

@@ -3,7 +3,7 @@ import workdata from '../assets/workdata.json'
 
 const WorkHistory = () => {
     return (
-        <div className="space-y-3">
+        <div className="space-y-3 pb-20">
             <Typography variant="h2">Work History</Typography>
             {workdata.workHistory.map((proj) => (
                 <div key={proj.id}>
