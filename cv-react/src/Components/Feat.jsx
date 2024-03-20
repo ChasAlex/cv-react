@@ -22,7 +22,7 @@ export default function Feat() {
               color="white"
               className="mb-4 text-3xl md:text-4xl lg:text-5xl"
             >
-              Meber of the SEB Innovation Forum
+              Member of the SEB Innovation Forum
             </Typography>
             <Typography
               variant="lead"
